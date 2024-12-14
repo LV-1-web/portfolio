@@ -1,0 +1,134 @@
+ /* Polices Importer */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+header h1 { /* Titre principal */
+    color: #335159;
+    font-size: 60px;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    margin: 20px 0;
+}
+
+p { /* Texte */
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    margin: 0 20px 20px 20px;
+    max-width: 1200px;
+    padding: 0 20px;
+    text-align: justify; 
+}
+
+
+nav h2 {/*menu de navigation titre*/
+    color: #6aa6b5;
+    font-size: 30px;
+    font-family: "Lato", sans-serif;
+	text-align: center;
+}
+
+h3 { /* Titre secondaire */
+    color: #6aa6b5;
+    font-size: 40px;
+    font-family: "Oswald", sans-serif;
+    margin: 30px 0 20px;
+    text-align: center; 
+}
+
+table {/*étude sur apple*/
+    width: 80%;
+    font-family: "Lato", sans-serif;
+    color: #6aa6b5;
+    border-collapse: collapse;
+    border-color: #6aa6b5;
+    text-align: center;
+	margin: 40px auto;
+}
+
+
+
+nav a:hover {
+    color: #6aa6b5;
+}
+
+nav{/*menu de navigation*/
+	width: 98%;
+	font-family: "Lato", sans-serif;
+	border: 3px solid #000;
+	border-color: #6aa6b5;
+	text-align: center;
+	padding: 15px;
+}
+
+
+/* Liens cliquables */
+a {
+    color: #6aa6b5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav li {
+	color: #335159;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+table tr, table td { /* Cellules du tableau */
+    padding: 15px;
+    border: 2px solid #6aa6b5;
+    text-align: center;
+    font-size: 18px;
+}
+
+footer { /* Pied de page */
+    text-align: center;
+    padding: 20px;
+    border-top: 3px solid #6aa6b5;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #6aa6b5;
+    text-decoration: none;
+}
+
+/*j'ai utilser grid pour la mise en forme*/
+.main-content {
+    display: grid; 
+    grid-template-columns: 1fr; 
+    justify-items: center; 
+    gap: 20px; 
+    padding: 20px;
+    text-align: center;
+}
+
+/* Pour la vidéo */
+iframe, video {
+    width: 100%;
+    max-width: 900px; 
+    aspect-ratio: 16 / 9; 
+    height: auto; 
+    margin-bottom: 20px; 
+}
+
+/* Pour les image */
+img {
+    width: 100%; 
+    max-width: 900px; 
+    height: auto; 
+    border-radius: 10px; 
+    margin-bottom: 20px; 
+}
