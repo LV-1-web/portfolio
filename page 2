@@ -17,11 +17,19 @@
 
          <section>
            <p>lien vers WordPress de l'UE L102 </p>
-           <td><a href="https://valton2.hosting.unilim.fr/UEL102/></a></td>
+         <tr>
+          <td><a href="https://valton2.hosting.unilim.fr/UEL102/">WordPress de l'UE L102</a></td>
+         </tr>
          </section>
-          <section>
-           <p></p>
+
+        <section>
+           <p>lien vers mini-site de l'UE L104 </p>
+         <tr>
+          <td><a href="https://valton2.hosting.unilim.fr/minisite/"></a>mini-site de l'UE L104</td>
+         </tr>
          </section>
+
+          
 
           <footer>
          <p>
