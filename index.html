@@ -38,20 +38,5 @@
             <br>Pour me contacter : <a href="mailto:louis.valton@etu.unilim.fr">louis.valton@etu.unilim.fr</a>
          </p>
       </footer
-	       <script>
-    document.getElementById("getJoke").addEventListener("click", function() {
-      const url = "https://official-joke-api.appspot.com/random_joke";
-
-      fetch(url)
-        .then(response => response.json())
-        .then(data => {
-          document.getElementById("joke").innerHTML = `
-            <p>${data.setup}</p>
-            <p><strong>${data.punchline}</strong></p>
-          `;
-        })
-        .catch(error => console.error("Error fetching the API:", error));
-    });
-  </script>
    </body>
 </html>
