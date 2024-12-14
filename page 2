@@ -25,7 +25,7 @@
 
           <footer>
          <p>
-            <br>Pour me contacter : <a href="https://valton2.hosting.unilim.fr/UEL102/">louis.valton@etu.unilim.fr</a>
+            <br>Pour me contacter : <a "mailto:louis.valton@etu.unilim.fr">louis.valton@etu.unilim.fr</a>
          </p>
       </footer
    </body>
