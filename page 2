@@ -1,0 +1,32 @@
+<html>
+   <head>
+      <meta charset="UTF-8" />
+      <link rel="stylesheet" type="text/css" href="stylesheet.css">
+      <title> page 2 </title>
+   </head>
+   <body>
+      <header>
+         <h1> page 2 </h1>
+      </header>
+
+      <!-- Contenu principal -->
+      <div class="main-content">
+         <section>
+           <p>Louis VALTON</p>
+         </section>
+
+         <section>
+           <p>lien vers WordPress de l'UE L102 </p>
+           <td><a href="https://valton2.hosting.unilim.fr/UEL102/></a></td>
+         </section>
+          <section>
+           <p></p>
+         </section>
+
+          <footer>
+         <p>
+            <br>Pour me contacter : <a href="mailto:louis.valton@etu.unilim.fr">louis.valton@etu.unilim.fr</a>
+         </p>
+      </footer
+   </body>
+</html>
